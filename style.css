@@ -1,0 +1,81 @@
+
+html,body{
+  background-color: darksalmon;
+  font-family: Verdana, Geneva;
+}
+
+div[bg-img="a"] {
+    /* The image used */
+    background-image: url("static/healthy people.jpeg");
+  
+    min-height: 450px;
+   min-width: 150px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+    padding-bottom: 560px;
+  }
+
+
+  div[bg-img="b"] {
+    background-image: url("static/terminally ill people.jpg");
+    min-height: 450px;
+   min-width: 150px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 0;
+    right: 0;
+
+  
+  }
+  
+  /* Position the navbar container inside the image */
+  div[container] {
+   
+    margin: 20px;
+    width: 150px;
+    bottom: 0;
+    right:0;
+    
+  }
+
+div[container="right"]{
+ float:right;
+
+}
+  
+  /* The navbar */
+  .topnav {
+    height: 50px;
+    background-color: #333;
+    position: sticky;
+    top:0;
+    z-index: 5;
+    width: 100%;
+    
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px; 
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .heading{
+    text-align: center;
+  }

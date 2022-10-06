@@ -1,0 +1,71 @@
+*[heading]{
+    text-align: center; 
+}
+
+html,body{
+    background-color: aquamarine;
+    margin: auto;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+*[left]{
+    max-width: 250px;
+    height: auto;
+    margin: 0;
+    border:0;
+    float:left;
+    padding-bottom: 70px;
+    padding-left: 20px;
+
+    
+}
+
+*[right]{
+    width: 250px;
+    height: auto;
+    margin: 0;
+    float:right;
+    padding-right: 20px;
+    padding-top: 300px;
+    
+}
+
+*[sticky]{
+position: sticky;
+top:0px;
+z-index: 1;
+}
+
+a[top]{
+    font-size: 60px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-family:"Trechubet MS",Veranda;
+    text-align: right;
+    padding-right: 15px;
+
+}
+
+a[contact]{
+    background-color: brown;
+    color: aliceblue;
+}
+
+span[top]{
+   float:right;
+
+    
+}
+
+a[about]{
+    background-color: rgb(42, 165, 89);
+    color: aliceblue;
+    padding-left: 10px;
+}
+
+
+
+
+
+
