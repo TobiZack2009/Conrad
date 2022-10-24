@@ -1,4 +1,4 @@
-@import url("https://www.w3schools.com/w3css/4/w3.css");
+@import url("/w3.css");
 
 html,body{
     background-color: rgb(0 150 136);
@@ -8,7 +8,8 @@ html,body{
   .topnav {
     height: 50px;
     background-color: #333;
-    position: sticky;
+    position:sticky;
+    left:0;
     top:0;
     z-index: 5;
     width: 100%;
@@ -42,10 +43,11 @@ html,body{
   }
 
   [login]{
-    background-color: orange;
+    background-color: #00dcc6;
     font-weight: bold;
     border-radius: 35px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
   }
 
   [login]:hover{
@@ -60,4 +62,17 @@ html,body{
 
   [center]{
     text-align: center;
+  }
+
+  [logo]{
+    filter: contrast(50%);
+    float:left;
+  }
+
+  [background-image]{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
   }

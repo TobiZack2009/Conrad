@@ -1,7 +1,10 @@
+
+$(".topnav").load("/navbar.txt")
+
 $("[logo]").click(
     function(){
         window.location.href="/"
     }
 )
 
-$(".topnav").load("/navbar.txt")
+var field=document.querySelector("[field]")
