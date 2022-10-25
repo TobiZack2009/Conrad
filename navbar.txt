@@ -1,18 +1,29 @@
 
 <div class="topnav">
-          
-   <img width="150px" height="50px" src="/static/logo.png" logo>
-          <a  href="">Blog</a>
-          <a  href="/about/">About Us</a>
-          <a login>Login</a>
-          <a login>Signup</a>
-          
-         </div> 
+     <img src="/static/logo.png" logo align="right">   
+     <div account> 
+     <a login href="/login/">Login</a> <br>
+     <a signup>  Sign up</a>
+</div> 
 
-         <script>
+ <div dropdown align="right">
+  <img menu-icon src="/static/icons8-menu.svg">
+   <div dropdown-content>
+     <a href="/about/">About</a> <br>
+     <a href="">Blog</a>
+   
+   </div>
+ </div>  
+      
+
+ </div>  
+   
+      <script>
             $("[logo]").click(
     function(){
         window.location.href="/"
     }
 )
+
+
          </script>
