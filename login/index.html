@@ -13,9 +13,11 @@
             left:25%;
             background-color: #00dcc6c7;
             border-radius: 35px;
-            width:45%;
-            height: 25%;
+            width:65%;
+            height: 45%;
             margin:auto;
+            padding: 25px;
+            text-align: center;
           }
         
 
@@ -36,13 +38,13 @@
     <img background-image src="/static/running.gif">
     <div login-div>
          <h1>Login</h1><br>
-         <div field>
-         User Name: <input type="text" placeholder="example@gmail.com"></input> <br>
-         Password:  <input type="password" ></input>
-
-       <br>  <button>Submit</button>
-
-</div>
+         <form method="post" action="/action_page.php">
+          <label for="fname">User Name:</label><br>
+          <input type="text" id="uname" name="uname" placeholder="example@gmail.com"><br>
+          <label for="lname">Password:</label><br>
+          <input type="password" id="pword" name="pword" placeholder="**********"><br><br>
+          <input type="submit" value="Submit">
+        </form>
 
     </div>
 

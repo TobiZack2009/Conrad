@@ -24,6 +24,18 @@
         window.location.href="/"
     }
 )
+  var dropdown=$("[dropdown]")
+dropdown.mouseleave(
+   function(){
+    $("[dropdown-content]").css("display","none")
+   }
+)
+
+dropdown.click(
+   function(){
+      $("[dropdown-content]").css("display","block")
+   }
+)
 
 
          </script>
