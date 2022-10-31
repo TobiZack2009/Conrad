@@ -2,12 +2,14 @@
 <div class="topnav">
      <img src="/static/logo.png" logo align="right">   
      <div account> 
-     <a login href="/login/">Login</a> <br>
-     <a signup>  Sign up</a>
+      <div class="w3-margin">
+         <a login href="/login/">Login</a> 
+         <a signup>  Sign up</a>
+      </div>
 </div> 
 
  <div dropdown align="right">
-  <img menu-icon src="/static/icons8-menu.svg">
+  <h1 class="fas fa-bars w3-margin"></h1>
    <div dropdown-content>
      <a href="/about/">About</a> <br>
      <a href="">Blog</a>

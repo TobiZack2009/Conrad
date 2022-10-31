@@ -1,4 +1,10 @@
-@import url("/w3.css");   
+@import url("/w3.css");  
+
+@import url('http://fonts.cdnfonts.com/css/corbel');
+
+*, button, p, h1, h2, h3, h4, h5, h6, em, b, strong, u, i{
+  font-family: "Corbel", sans-serif;
+}
 
 html,body{
     background-color: rgb(0 150 136);
@@ -42,7 +48,6 @@ html,body{
     background-color: #00dcc6;
     font-weight: bold;
     border-radius: 15px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     top: 0;
     left: 0;
    
@@ -93,7 +98,7 @@ html,body{
   padding-left: 20px;
   z-index: 9;
  transition:  width 2s, height 2s, transform 2s;
-}
+} 
 
 /* Links inside the dropdown */
 [dropdown-content] a {
@@ -140,4 +145,26 @@ html,body{
 
 [account]{
   float: right;
+}
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
 }
