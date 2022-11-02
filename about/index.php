@@ -15,6 +15,7 @@
               
           }
       </style>
+      
   </head>
   <body >
       <div class="topnav">
@@ -24,7 +25,10 @@
                 <a  href="about/">About Us</a>
                 <a login>Login</a>
       </div>
-
+      <?php
+$txt = "PHP";
+echo "I love $txt!";
+?>
 
 
       <h1 heading center>About Us</h1>

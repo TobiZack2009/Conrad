@@ -1,9 +1,10 @@
 
 <div class="topnav">
+  <link rel="stylesheet" href="/navbar.css">
      <img src="/static/logo.png" logo align="right">   
      <div account> 
       <div class="w3-margin">
-         <a login href="/login/">Login</a> 
+         <a login href="/login/">Login</a> <br>
          <a signup>  Sign up</a>
       </div>
 </div> 
